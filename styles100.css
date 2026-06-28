@@ -123,7 +123,7 @@
   justify-content: center;   /* centre horizontal */
   align-items: center;       /* centre vertical */
   width: 100%;
-  height: 300px;
+  height: 320px;
   text-align: center;
   overflow:hidden;
   border-radius:10px;
@@ -170,7 +170,7 @@
 
 /* Conteneur titre masqué */
 .title-container {
-  width: 60%;
+  width: 80%;
   overflow: hidden;
   position: relative;
  /* effet fade sur les bords */
@@ -190,7 +190,7 @@
   white-space: nowrap;
   font-size: 1.1rem;
   padding-right: 100px; /* petit espace entre répétitions */
-  font-weight: 300;
+  font-weight: 250;
   color:#0A66C2;
   letter-spacing:2px;
   margin-top:4px;
@@ -245,7 +245,7 @@
     animation-duration: 20s; /* plus lent sur mobile */
   }
    .dmpi-logo {
-    width: 200px;        /* réduit la taille sur mobile */
+    width: 300px;        /* réduit la taille sur mobile */
     height: auto;
    /* pulsation plus douce */
     animation: pulse 2.9s infinite ease-in-out;
