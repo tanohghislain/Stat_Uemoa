@@ -64,6 +64,7 @@
   background-color: #0dcaf0;
 }
 
+
 .value-box.rose {
   background-color :#fce4ec;
   color: #000000;
@@ -258,19 +259,39 @@
 }
 
 
-/* legende de la carte en horizontale */
-tags$style(HTML("
-.legend-horizontal {
-  display: flex !important;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-  white-space: nowrap;
+/* ajuster texte de page */
+
+.quarto-title-block .title {
+  text-align: center;
 }
 
-.legend-horizontal i {
-  margin-right: 4px;
-  float: none !important;
-  display: inline-block;
+.navbar-nav {
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
-"))
+
+
+.title-center {
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+h1.title,
+.quarto-title-block .title {
+  text-align: center !important;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+h1,
+h1.title,
+.quarto-title-block .title,
+.quarto-dashboard-header h1 {
+  text-align: center !important;
+}
